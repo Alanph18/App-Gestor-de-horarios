@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68239F92D4A01A90064A6A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B68239F82D4A01A90064A6A9 /* FirebaseAnalytics */; };
+		B68239FB2D4A01A90064A6A9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = B68239FA2D4A01A90064A6A9 /* FirebaseAnalyticsOnDeviceConversion */; };
+		B68239FD2D4A024D0064A6A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B68239FC2D4A024D0064A6A9 /* GoogleService-Info.plist */; };
+		B68239FF2D4A09B30064A6A9 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = B68239FE2D4A09B30064A6A9 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		B6823A012D5170930064A6A9 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A002D5170930064A6A9 /* LoginEmailView.swift */; };
+		B6823A032D5178790064A6A9 /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A022D5178790064A6A9 /* RegisterEmailView.swift */; };
+		B6823A052D5179150064A6A9 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A042D5179150064A6A9 /* DismissView.swift */; };
+		B6823A082D51833A0064A6A9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B6823A072D51833A0064A6A9 /* FirebaseAuth */; };
+		B6823A0B2D5184B90064A6A9 /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A0A2D5184B90064A6A9 /* AuthenticationFirebaseDatasource.swift */; };
+		B6823A0D2D5188260064A6A9 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A0C2D5188260064A6A9 /* AuthenticationRepository.swift */; };
+		B6823A0F2D518B690064A6A9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6823A0E2D518B690064A6A9 /* AuthenticationViewModel.swift */; };
+		B6AD1A962D3730630078C1E6 /* GestorDeHorariosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1A952D3730630078C1E6 /* GestorDeHorariosApp.swift */; };
+		B6AD1A982D3730630078C1E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1A972D3730630078C1E6 /* ContentView.swift */; };
+		B6AD1A9A2D3730650078C1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD1A992D3730650078C1E6 /* Assets.xcassets */; };
+		B6AD1A9D2D3730650078C1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD1A9C2D3730650078C1E6 /* Preview Assets.xcassets */; };
+		B6AD1A9F2D3730650078C1E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1A9E2D3730650078C1E6 /* Persistence.swift */; };
+		B6AD1AA22D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AA02D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld */; };
+		B6AD1ACC2D374E290078C1E6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACB2D374E290078C1E6 /* CoreDataManager.swift */; };
+		B6AD1ACE2D374F520078C1E6 /* AddHorarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACD2D374F520078C1E6 /* AddHorarioView.swift */; };
+		B6AD1AD02D374F760078C1E6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACF2D374F760078C1E6 /* CalendarView.swift */; };
+		B6AD1AD22D3750130078C1E6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AD12D3750130078C1E6 /* NotificationManager.swift */; };
+		B6AD1AD62D375BA90078C1E6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AD52D375BA90078C1E6 /* Date+Extension.swift */; };
+		B6AD1AD92D37648A0078C1E6 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AD82D37648A0078C1E6 /* LaunchScreenView.swift */; };
+		B6AD1ADF2D3EB2F70078C1E6 /* EditHorarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ADE2D3EB2F70078C1E6 /* EditHorarioView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AD1AA82D3730650078C1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AD1A8A2D3730630078C1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD1A912D3730630078C1E6;
+			remoteInfo = GestorDeHorarios;
+		};
+		B6AD1AB22D3730650078C1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AD1A8A2D3730630078C1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD1A912D3730630078C1E6;
+			remoteInfo = GestorDeHorarios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68239FC2D4A024D0064A6A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6823A002D5170930064A6A9 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		B6823A022D5178790064A6A9 /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
+		B6823A042D5179150064A6A9 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
+		B6823A0A2D5184B90064A6A9 /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
+		B6823A0C2D5188260064A6A9 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		B6823A0E2D518B690064A6A9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B6AD1A922D3730630078C1E6 /* GestorDeHorarios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestorDeHorarios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD1A952D3730630078C1E6 /* GestorDeHorariosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorDeHorariosApp.swift; sourceTree = "<group>"; };
+		B6AD1A972D3730630078C1E6 /* ContentView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6AD1A992D3730650078C1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AD1A9C2D3730650078C1E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6AD1A9E2D3730650078C1E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B6AD1AA12D3730650078C1E6 /* GestorDeHorarios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GestorDeHorarios.xcdatamodel; sourceTree = "<group>"; };
+		B6AD1AA72D3730650078C1E6 /* GestorDeHorariosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestorDeHorariosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD1AB12D3730650078C1E6 /* GestorDeHorariosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestorDeHorariosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD1ACB2D374E290078C1E6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B6AD1ACD2D374F520078C1E6 /* AddHorarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHorarioView.swift; sourceTree = "<group>"; };
+		B6AD1ACF2D374F760078C1E6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		B6AD1AD12D3750130078C1E6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B6AD1AD52D375BA90078C1E6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B6AD1AD82D37648A0078C1E6 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		B6AD1ADE2D3EB2F70078C1E6 /* EditHorarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHorarioView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AD1A8F2D3730630078C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68239F92D4A01A90064A6A9 /* FirebaseAnalytics in Frameworks */,
+				B68239FF2D4A09B30064A6A9 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				B68239FB2D4A01A90064A6A9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				B6823A082D51833A0064A6A9 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AA42D3730650078C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AAE2D3730650078C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6823A062D51833A0064A6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6823A092D51839C0064A6A9 /* AutheticationViews */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD1AD82D37648A0078C1E6 /* LaunchScreenView.swift */,
+				B6823A002D5170930064A6A9 /* LoginEmailView.swift */,
+				B6823A022D5178790064A6A9 /* RegisterEmailView.swift */,
+			);
+			path = AutheticationViews;
+			sourceTree = "<group>";
+		};
+		B6AD1A892D3730630078C1E6 = {
+			isa = PBXGroup;
+			children = (
+				B6AD1A942D3730630078C1E6 /* GestorDeHorarios */,
+				B6AD1A932D3730630078C1E6 /* Products */,
+				B6823A062D51833A0064A6A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AD1A932D3730630078C1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD1A922D3730630078C1E6 /* GestorDeHorarios.app */,
+				B6AD1AA72D3730650078C1E6 /* GestorDeHorariosTests.xctest */,
+				B6AD1AB12D3730650078C1E6 /* GestorDeHorariosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD1A942D3730630078C1E6 /* GestorDeHorarios */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD1A952D3730630078C1E6 /* GestorDeHorariosApp.swift */,
+				B6823A092D51839C0064A6A9 /* AutheticationViews */,
+				B6823A042D5179150064A6A9 /* DismissView.swift */,
+				B6AD1A972D3730630078C1E6 /* ContentView.swift */,
+				B68239FC2D4A024D0064A6A9 /* GoogleService-Info.plist */,
+				B6AD1A992D3730650078C1E6 /* Assets.xcassets */,
+				B6AD1A9E2D3730650078C1E6 /* Persistence.swift */,
+				B6AD1AA02D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld */,
+				B6AD1A9B2D3730650078C1E6 /* Preview Content */,
+				B6AD1ACB2D374E290078C1E6 /* CoreDataManager.swift */,
+				B6AD1ACD2D374F520078C1E6 /* AddHorarioView.swift */,
+				B6AD1ACF2D374F760078C1E6 /* CalendarView.swift */,
+				B6AD1AD12D3750130078C1E6 /* NotificationManager.swift */,
+				B6AD1AD52D375BA90078C1E6 /* Date+Extension.swift */,
+				B6AD1ADE2D3EB2F70078C1E6 /* EditHorarioView.swift */,
+				B6823A0A2D5184B90064A6A9 /* AuthenticationFirebaseDatasource.swift */,
+				B6823A0C2D5188260064A6A9 /* AuthenticationRepository.swift */,
+				B6823A0E2D518B690064A6A9 /* AuthenticationViewModel.swift */,
+			);
+			path = GestorDeHorarios;
+			sourceTree = "<group>";
+		};
+		B6AD1A9B2D3730650078C1E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD1A9C2D3730650078C1E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AD1A912D3730630078C1E6 /* GestorDeHorarios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD1ABB2D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorarios" */;
+			buildPhases = (
+				B6AD1A8E2D3730630078C1E6 /* Sources */,
+				B6AD1A8F2D3730630078C1E6 /* Frameworks */,
+				B6AD1A902D3730630078C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestorDeHorarios;
+			packageProductDependencies = (
+				B68239F82D4A01A90064A6A9 /* FirebaseAnalytics */,
+				B68239FA2D4A01A90064A6A9 /* FirebaseAnalyticsOnDeviceConversion */,
+				B68239FE2D4A09B30064A6A9 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				B6823A072D51833A0064A6A9 /* FirebaseAuth */,
+			);
+			productName = GestorDeHorarios;
+			productReference = B6AD1A922D3730630078C1E6 /* GestorDeHorarios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6AD1AA62D3730650078C1E6 /* GestorDeHorariosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD1ABE2D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorariosTests" */;
+			buildPhases = (
+				B6AD1AA32D3730650078C1E6 /* Sources */,
+				B6AD1AA42D3730650078C1E6 /* Frameworks */,
+				B6AD1AA52D3730650078C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AD1AA92D3730650078C1E6 /* PBXTargetDependency */,
+			);
+			name = GestorDeHorariosTests;
+			productName = GestorDeHorariosTests;
+			productReference = B6AD1AA72D3730650078C1E6 /* GestorDeHorariosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6AD1AB02D3730650078C1E6 /* GestorDeHorariosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD1AC12D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorariosUITests" */;
+			buildPhases = (
+				B6AD1AAD2D3730650078C1E6 /* Sources */,
+				B6AD1AAE2D3730650078C1E6 /* Frameworks */,
+				B6AD1AAF2D3730650078C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AD1AB32D3730650078C1E6 /* PBXTargetDependency */,
+			);
+			name = GestorDeHorariosUITests;
+			productName = GestorDeHorariosUITests;
+			productReference = B6AD1AB12D3730650078C1E6 /* GestorDeHorariosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AD1A8A2D3730630078C1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B6AD1A912D3730630078C1E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B6AD1AA62D3730650078C1E6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B6AD1A912D3730630078C1E6;
+					};
+					B6AD1AB02D3730650078C1E6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B6AD1A912D3730630078C1E6;
+					};
+				};
+			};
+			buildConfigurationList = B6AD1A8D2D3730630078C1E6 /* Build configuration list for PBXProject "GestorDeHorarios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AD1A892D3730630078C1E6;
+			packageReferences = (
+				B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B6AD1A932D3730630078C1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AD1A912D3730630078C1E6 /* GestorDeHorarios */,
+				B6AD1AA62D3730650078C1E6 /* GestorDeHorariosTests */,
+				B6AD1AB02D3730650078C1E6 /* GestorDeHorariosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AD1A902D3730630078C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD1A9D2D3730650078C1E6 /* Preview Assets.xcassets in Resources */,
+				B6AD1A9A2D3730650078C1E6 /* Assets.xcassets in Resources */,
+				B68239FD2D4A024D0064A6A9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AA52D3730650078C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AAF2D3730650078C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AD1A8E2D3730630078C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD1A9F2D3730650078C1E6 /* Persistence.swift in Sources */,
+				B6823A0B2D5184B90064A6A9 /* AuthenticationFirebaseDatasource.swift in Sources */,
+				B6823A0F2D518B690064A6A9 /* AuthenticationViewModel.swift in Sources */,
+				B6AD1AD02D374F760078C1E6 /* CalendarView.swift in Sources */,
+				B6AD1AA22D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld in Sources */,
+				B6AD1A982D3730630078C1E6 /* ContentView.swift in Sources */,
+				B6AD1ACE2D374F520078C1E6 /* AddHorarioView.swift in Sources */,
+				B6823A052D5179150064A6A9 /* DismissView.swift in Sources */,
+				B6823A032D5178790064A6A9 /* RegisterEmailView.swift in Sources */,
+				B6AD1AD92D37648A0078C1E6 /* LaunchScreenView.swift in Sources */,
+				B6823A0D2D5188260064A6A9 /* AuthenticationRepository.swift in Sources */,
+				B6AD1ACC2D374E290078C1E6 /* CoreDataManager.swift in Sources */,
+				B6823A012D5170930064A6A9 /* LoginEmailView.swift in Sources */,
+				B6AD1AD22D3750130078C1E6 /* NotificationManager.swift in Sources */,
+				B6AD1A962D3730630078C1E6 /* GestorDeHorariosApp.swift in Sources */,
+				B6AD1ADF2D3EB2F70078C1E6 /* EditHorarioView.swift in Sources */,
+				B6AD1AD62D375BA90078C1E6 /* Date+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AA32D3730650078C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD1AAD2D3730650078C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6AD1AA92D3730650078C1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD1A912D3730630078C1E6 /* GestorDeHorarios */;
+			targetProxy = B6AD1AA82D3730650078C1E6 /* PBXContainerItemProxy */;
+		};
+		B6AD1AB32D3730650078C1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD1A912D3730630078C1E6 /* GestorDeHorarios */;
+			targetProxy = B6AD1AB22D3730650078C1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6AD1AB92D3730650078C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6AD1ABA2D3730650078C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AD1ABC2D3730650078C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GestorDeHorarios/Preview Content\"";
+				DEVELOPMENT_TEAM = YWTLJ348P7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorarios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AD1ABD2D3730650078C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GestorDeHorarios/Preview Content\"";
+				DEVELOPMENT_TEAM = YWTLJ348P7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorarios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6AD1ABF2D3730650078C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorariosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestorDeHorarios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestorDeHorarios";
+			};
+			name = Debug;
+		};
+		B6AD1AC02D3730650078C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorariosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestorDeHorarios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestorDeHorarios";
+			};
+			name = Release;
+		};
+		B6AD1AC22D3730650078C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorariosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestorDeHorarios;
+			};
+			name = Debug;
+		};
+		B6AD1AC32D3730650078C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.japh.GestorDeHorariosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestorDeHorarios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AD1A8D2D3730630078C1E6 /* Build configuration list for PBXProject "GestorDeHorarios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD1AB92D3730650078C1E6 /* Debug */,
+				B6AD1ABA2D3730650078C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD1ABB2D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorarios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD1ABC2D3730650078C1E6 /* Debug */,
+				B6AD1ABD2D3730650078C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD1ABE2D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorariosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD1ABF2D3730650078C1E6 /* Debug */,
+				B6AD1AC02D3730650078C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD1AC12D3730650078C1E6 /* Build configuration list for PBXNativeTarget "GestorDeHorariosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD1AC22D3730650078C1E6 /* Debug */,
+				B6AD1AC32D3730650078C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B68239F82D4A01A90064A6A9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B68239FA2D4A01A90064A6A9 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		B68239FE2D4A09B30064A6A9 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		B6823A072D51833A0064A6A9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B68239F72D4A01A90064A6A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B6AD1AA02D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6AD1AA12D3730650078C1E6 /* GestorDeHorarios.xcdatamodel */,
+			);
+			currentVersion = B6AD1AA12D3730650078C1E6 /* GestorDeHorarios.xcdatamodel */;
+			path = GestorDeHorarios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6AD1A8A2D3730630078C1E6 /* Project object */;
+}

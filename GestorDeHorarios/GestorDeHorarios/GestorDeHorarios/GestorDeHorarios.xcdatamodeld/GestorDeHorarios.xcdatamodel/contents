@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23E214" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Horario" representedClassName="Horario" syncable="YES" codeGenerationType="class">
+        <attribute name="asistencia" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="esDiaPico" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fechaComida" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaFin" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaInicio" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaVacaciones" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="nombreEmpleado" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class"/>
+</model>
